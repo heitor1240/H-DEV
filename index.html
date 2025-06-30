@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header>
@@ -17,7 +19,23 @@
 
   <section data-aos="fade-up">
     <h2>Sobre Nós</h2>
-    <p>Somos uma equipe especializada em criar sites com presença marcante, modernos e funcionais. Desenvolvemos soluções digitais personalizadas para empresas que querem se destacar.</p>
+    <p>Somos uma equipe especializada em criar sites com presença marcante, modernos e funcionais. Desenvolvemos
+      soluções digitais personalizadas para empresas que querem se destacar.</p>
+  </section>
+
+  <section class="carousel" data-aos="zoom-in">
+    <div class="carousel-images" id="carouselImages">
+      <img src="assets/slide.avif" alt="Slide 1">
+      <img src="assets/slide.avif" alt="Slide 2">
+      <img src="assets/slide.avif" alt="Slide 3">
+      <img src="assets/slide.avif" alt="Slide 4">
+    </div>
+    <div class="indicators">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+      <span class="dot" data-index="3"></span>
+    </div>  
   </section>
 
   <section data-aos="fade-up" data-aos-delay="100">
@@ -38,7 +56,10 @@
     © 2025 H-DEV. Todos os direitos reservados.
   </footer>
 
-   <script src="aos-init.js"></script>
+  <script src="aos-init.js"></script>
+  <script src="script.js"></script>
+
 
 </body>
+
 </html>
